@@ -130,11 +130,11 @@ body {
 }
 
 /* Invalid field color */
-.invalid .form__input {
+.invalids .form__input {
   border-color: var(--error-color);
   box-shadow: 0 8px 24px hsla(353, 64%, 53%, .3);
 }
 
-.invalid .form__error {
+.invalids .form__error {
   opacity: 1;
 }
