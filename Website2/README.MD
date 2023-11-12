@@ -1,4 +1,4 @@
-#Email Validation Check
+# Website 2  
 Created an Email Validation Check to practice simple html css js. 
 ![Alt text](image.png)  
 
