@@ -1,0 +1,41 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+/* Variable CSS */
+:root {
+  /* Colors */
+  --default-color: hsl(200, 4%, 60%);
+  --active-color: hsl(200, 70%, 56%);
+  --error-color: hsl(353, 64%, 53%);
+  --text-color: hsl(200, 4%, 24%);
+  --border-color: hsl(200, 4%, 24%);
+  --body-color: hsl(0, 0%, 100%);
+
+  /* Font and Typography */
+  --body-font : "Monstserrat", sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+}
+/* Base */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+input{
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+.container{
+    height: 100vh;
+    margin-inline: 1.5rem;
+}
